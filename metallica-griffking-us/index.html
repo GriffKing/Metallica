@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en/us">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Metallica - GriffKing.us</title>
-
+    
+    <link rel="stylesheet" href="main.css">
+    
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,7 +19,6 @@
     <![endif]-->
   </head>
   <body>
-     
      <!-- NAVIGATION -->    
      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -30,28 +30,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Metallica</a>
+          <a class="navbar-brand" href="http://griffking.us/projects">Metallica</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="glyphicon glyphicon-home"></span></a></li>
-            <li><a href="#">Facts <span class="glyphicon glyphicon-list"></span></a></li>
+            <li class="active"><a href="http://metallica.griffking.us/">Home <span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="http://metallica.griffking.us/facts">Facts <span class="glyphicon glyphicon-list"></span></a></li>
           </ul>
-          <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit <span class="glyphicon glyphicon-search"></span></button>
-          </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Sources <span class="glyphicon glyphicon glyphicon-ok-circle"></span></a></li>
+            <li><a href="http://metallica.griffking.us/sources">Sources <span class="glyphicon glyphicon glyphicon-ok-circle"></span></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- nav container -->
     </nav>
     
+    <center>
     <!-- JUMBOTRON (HEADING) -->
     <div class="page-header">
       <div class="container">    
@@ -66,14 +61,32 @@
         </div>
         <div class="panel-body">
           <p>
-              In 8th grade we have a music project due by the end of the unified arts rotation. This is that project.<br>
-              We had a choice, the listed options were a PowerPoint/Google Presentation, or a kind of storybook or scrapbook about a certain band.
-              
+            In 8th grade we have a music project due by the end of the unified arts rotation. This is that project.<br>
+            We had a choice, the listed options were a PowerPoint/Google Presentation, or a kind of storybook or scrapbook about a certain band.
+            But, we chose to do our own, which obviously, is a website.<br>
+            The project features the band "Metallica", which was a band we chose from a list. It displays 40 facts and 5 pictures pretaining to the             band.<br><hr>
+            This site is completely open source, meaning you can view it <a href="http://github.com/griffking/metallica/" target="_blank">here on GitHub</a>.
           </p>
         </div>
       </div>
-    </div>   
-    
+    </div>
+    </center>    
+    <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">Metallica Project</a>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Links <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://metallica.griffking.us/facts">Facts</a></li> 
+                        <li><a href="http://metallica.griffking.us/sources">Sources</a></li>
+                        <li><a target="_blank" href="http://metallica.com">Official Metallica Site</a></li>
+                        <li><a target="_blank" href="http://github.com/griffking/metallica/">Source Code</a></li> 
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
